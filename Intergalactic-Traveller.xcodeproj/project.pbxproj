@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C8AF82827D94BC600F0673F /* StarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8AF82727D94BC600F0673F /* StarViewController.swift */; };
 		9CE5898127D7F30B005F0E32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE5898027D7F30B005F0E32 /* AppDelegate.swift */; };
 		9CE5898327D7F30B005F0E32 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE5898227D7F30B005F0E32 /* SceneDelegate.swift */; };
 		9CE5898527D7F30B005F0E32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE5898427D7F30B005F0E32 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9C8AF82727D94BC600F0673F /* StarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarViewController.swift; sourceTree = "<group>"; };
 		9CE5897D27D7F30B005F0E32 /* Intergalactic-Traveller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Intergalactic-Traveller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CE5898027D7F30B005F0E32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CE5898227D7F30B005F0E32 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				9CE5898227D7F30B005F0E32 /* SceneDelegate.swift */,
 				9CE5898427D7F30B005F0E32 /* ViewController.swift */,
 				9CE5898627D7F30B005F0E32 /* Main.storyboard */,
+				9C8AF82727D94BC600F0673F /* StarViewController.swift */,
 				9CE5898927D7F30C005F0E32 /* Assets.xcassets */,
 				9CE5898B27D7F30C005F0E32 /* LaunchScreen.storyboard */,
 				9CE5898E27D7F30C005F0E32 /* Info.plist */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C8AF82827D94BC600F0673F /* StarViewController.swift in Sources */,
 				9CE5898527D7F30B005F0E32 /* ViewController.swift in Sources */,
 				9CE5898127D7F30B005F0E32 /* AppDelegate.swift in Sources */,
 				9CE5898327D7F30B005F0E32 /* SceneDelegate.swift in Sources */,
@@ -451,7 +455,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Futures-Lab.Intergalactic-Traveller";
+				PRODUCT_BUNDLE_IDENTIFIER = "Futures-Lab.Intergalactic-Traveler";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -478,7 +482,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Futures-Lab.Intergalactic-Traveller";
+				PRODUCT_BUNDLE_IDENTIFIER = "Futures-Lab.Intergalactic-Traveler";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
