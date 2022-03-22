@@ -20,17 +20,6 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QTZ-JY-b0v">
-                                <rect key="frame" x="144" y="387" width="126" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" systemColor="systemBlueColor"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Visit a Blue Star"/>
-                                <connections>
-                                    <action selector="whenBlueStarTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ja8-zg-t76"/>
-                                    <segue destination="mBJ-Xl-cfB" kind="show" id="CZE-Xx-afq"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome Intergalactic Traveler!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Qi-Js-XJM">
                                 <rect key="frame" x="88" y="47" width="239" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -40,13 +29,24 @@
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vZN-T3-WIn">
-                                <rect key="frame" x="144" y="269" width="126" height="45"/>
+                                <rect key="frame" x="123" y="234" width="169" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="systemRedColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Visit a Red Star"/>
                                 <connections>
                                     <segue destination="mBJ-Xl-cfB" kind="show" identifier="mySegue" id="TZp-fz-55H"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QTZ-JY-b0v">
+                                <rect key="frame" x="123" y="398" width="169" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="systemBlueColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Visit a Blue Star"/>
+                                <connections>
+                                    <action selector="whenBlueStarTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ja8-zg-t76"/>
+                                    <segue destination="mBJ-Xl-cfB" kind="show" identifier="mySegue2" id="JY0-26-QJW"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -104,7 +104,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="TZp-fz-55H"/>
+        <segue reference="JY0-26-QJW"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="background" width="114.66666412353516" height="204"/>
