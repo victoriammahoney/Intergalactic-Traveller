@@ -22,9 +22,10 @@ class ViewController: UIViewController {
         {
             nextController.starName = "red"
         } else if segue.identifier == "mySegue2" {
-            nextController.starName = "red"
+            nextController.starName = "blue"
         }
-    
+        
+        
     
   }
 
